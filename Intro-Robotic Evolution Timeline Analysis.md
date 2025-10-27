@@ -1,5 +1,3 @@
-<img width="786" height="523" alt="FSM" src="https://github.com/user-attachments/assets/541b310a-301d-45f8-80fe-4699807dcbb6" />
-Assignment 1: Robotic Evolution Timeline Analysis
 
 🕰️ Robotics Evolution Timeline:-
 
@@ -59,3 +57,12 @@ To bring this exhibit to life:
 •	Interactive Timeline Wall: Touchscreen display with animated robot models and voiceovers
 •	Robot Type Classification Chart: Color-coded matrix linking robot types to societal needs
 •	Ethics Corner: Augmented reality booth where visitors explore dilemmas (e.g., “Should robots replace caregivers?”)
+
+
+<img width="786" height="523" alt="FSM" src="https://github.com/user-attachments/assets/541b310a-301d-45f8-80fe-4699807dcbb6" />
+Assignment 1: Robotic Evolution Timeline Analysis
+
+
+
+
+
