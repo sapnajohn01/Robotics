@@ -59,7 +59,6 @@ To bring this exhibit to life:
 •	Robot Type Classification Chart: Color-coded matrix linking robot types to societal needs
 •	Ethics Corner: Augmented reality booth where visitors explore dilemmas (e.g., “Should robots replace caregivers?”)
 
-![Wiring Dia](https://github.com/user-attachments/assets/38640858-baac-4c16-8b9d-2aaf2e256a88)
 
 
 
