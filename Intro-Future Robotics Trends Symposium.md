@@ -1,17 +1,18 @@
 
 Assignment 5: Future Robotics Trends Symposium 
 
-Here's a structured and compelling presentation outline tailored for your robotics symposium, complete with key insights, data-backed predictions, and ethical reflections. It’s designed to resonate with both technical and non-technical audiences, and aligns beautifully with your passion for robotics, simulation, and responsible innovation.
 🤖 Future Trends and Opportunities in Robotics: A Decade of Transformation
 🎯 Presentation Objectives
 •	Explore emerging robotics technologies
 •	Predict societal and industrial impacts
 •	Identify ethical considerations and challenges
 •	Recommend responsible development strategies
+
 🧭 1. Current State of Robotics
 •	Industrial Dominance: Robotics is heavily used in manufacturing, logistics, and healthcare.
 •	Technological Backbone: Rigid-body mechanics, rule-based automation, and basic sensor integration.
 •	Limitations: Limited adaptability, high cost of customization, and constrained human-robot interaction.
+
 🚀 2. Emerging Trends in Robotics
 🔹 AI Integration
 •	Tech Foundations: Agentic AI, deep learning, reinforcement learning, edge computing2
@@ -38,6 +39,7 @@ Here's a structured and compelling presentation outline tailored for your roboti
 •	Applications: Search-and-rescue bots, underwater exploration, prosthetics
 •	Adoption Timeline: Emerging now; transformative by 2030+
 •	Leaders: South China University of Technology, University of Tokyo, Biomimetics Lab
+
 •	🌍 3. Societal Impact Analysis
 Impact Area	Positive Outcomes	Challenges & Risks
 Economy	Boost in productivity, new markets	Job displacement in low-skill sectors
