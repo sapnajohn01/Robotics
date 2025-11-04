@@ -25,8 +25,7 @@ IR Sensor Right	A1	Analog input
 Power Supply	VIN, GND	Regulated 5V to Arduino
 
 🧾 Circuit Diagram
-I've included a few reference diagrams b<img width="676" height="570" alt="_- visual selection (1)" src="https://github.com/user-attachments/assets/0513a3a4-4386-4fb6-9614-c99e459c6e2d" />
-elow to guide your implementation. These show how to wire the motor driver, sensors, and Arduino together for full integration.
+I've included a few reference diagrams below to guide your implementation. These show how to wire the motor driver, sensors, and Arduino together for full integration.
 
 🔧 Implementation Tips
 •	Use male headers and solder bridges on perfboard for clean layout.
@@ -62,5 +61,5 @@ Here are some visual guides to help you wire everything correctly:
 •	Obstacle Avoidance Robot Circuit Guide
 •	GitHub Repository with Circuit Diagrams and Code
 
-<img width="676" height="570" alt="_- visual selection" src="https://github.com/user-attachments/assets/1d298e25-d483-4366-8945-f727e4ce152b" />
+<img width="1104" height="944" alt="visual diagram" src="https://github.com/user-attachments/assets/bfc0f13d-de4e-48fe-931d-34037de0a9df" />
 
