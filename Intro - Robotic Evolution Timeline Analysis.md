@@ -55,11 +55,6 @@ Industrial	Efficiency & scale	Job loss, safety\
 Intelligent	Interaction & care	Emotional manipulation\
 Autonomous	Autonomy & data	Privacy, bias, accountability
 
-| Command | Description | Command | Description |
-| --- | --- | --- | --- | 
-| git status | List all new or modified files | git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged | git diff | Show file differences that haven't been staged |
-
 📊**Visual Presentation**
 
 <img width="2400" height="1600" alt="Milestones" src="https://github.com/user-attachments/assets/8962fad7-5af8-4a01-842b-dee7bbc42dbd" />
