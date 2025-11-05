@@ -1,6 +1,7 @@
 **Assignment 5: Future Robotics Trends Symposium**
 
-🤖 **Future Trends and Opportunities in Robotics: A Decade of**\
+🤖 **Future Trends and Opportunities in Robotics**\
+
 🎯 **Presentation Objectives**\
 •	Explore emerging robotics technologies\
 •	Predict societal and industrial impacts\
@@ -17,27 +18,31 @@
 •	Tech Foundations: Agentic AI, deep learning, reinforcement learning, edge computing2\
 •	Applications: Predictive maintenance, autonomous decision-making in logistics, adaptive surgical robots\
 •	Adoption Timeline: Mainstream by 2026–2028\
-•	Leaders: Boston Dynamics, NVIDIA, OpenAI, MIT CSAIL\
+•	Leaders: Boston Dynamics, NVIDIA, OpenAI, MIT CSAIL
+
 🔹 **Soft Robotics**\
 •	Tech Foundations: Elastomers, pneumatic actuators, bio-compatible materials4\
 •	Applications: Wearable assistive devices, agricultural harvesting, minimally invasive surgery\
 •	Adoption Timeline: Niche adoption now; broader use by 2027–2030\
-•	Leaders: Harvard Wyss Institute, ThinkRobotics, Soft Robotics Inc.\
+•	Leaders: Harvard Wyss Institute, ThinkRobotics, Soft Robotics Inc.
+
 🔹 **Swarm Robotics**
 •	Tech Foundations: Decentralized control, local communication, bio-inspired algorithms6\
 •	Applications: Disaster response, environmental monitoring, warehouse automation\
 •	Adoption Timeline: Experimental now; scalable by 2028–2032\
-•	Leaders: ETH Zurich, University of Tokyo, NASA JPL\
+•	Leaders: ETH Zurich, University of Tokyo, NASA JPL
+
 🔹 **Human-Robot Collaboration**\
 •	Tech Foundations: Cobots, adaptive autonomy, multimodal interfaces8\
 •	Applications: Assembly lines, elder care, education, rehabilitation\
 •	Adoption Timeline: Rapid growth through 2025–2030\
-•	Leaders: Universal Robots, ABB, Digitopia, Carnegie Mellon\
+•	Leaders: Universal Robots, ABB, Digitopia, Carnegie Mellon
+
 🔹 **Bio-Inspired Designs**\
 •	Tech Foundations: Biomimicry, neuromorphic engineering, flexible morphologies10\
 •	Applications: Search-and-rescue bots, underwater exploration, prosthetics\
 •	Adoption Timeline: Emerging now; transformative by 2030+\
-•	Leaders: South China University of Technology, University of Tokyo, Biomimetics Lab\
+•	Leaders: South China University of Technology, University of Tokyo, Biomimetics Lab
 
 •	🌍 **3. Societal Impact Analysis**\
 Impact Area	Positive Outcomes	Challenges & Risks\
