@@ -46,12 +46,7 @@ Integration	Regulated 5V output to Arduino; separate motor power rail
 **5. Structural Framework**\
 | Material | Laser-cut acrylic or modular aluminum profiles |\
 | Features | Mounting holes for sensors, slots for wiring, adjustable chassis |\
-Modularity: Components mounted with screws or snap-fit brackets for easy swapping.\
-🔌 Wiring Diagrams & Connection Guides\
-•	Color-coded diagrams for each module\
-•	Breadboard layout for sensor testing\
-•	Schematic showing full integration with labeled pins\
-•	Step-by-step connection guide with photos or illustrations
+Modularity: Components mounted with screws or snap-fit brackets for easy swapping.
 
 🧪 **Educational Exercises**\
 Exercise 1: Sensor Testing\
@@ -73,11 +68,6 @@ Behavior:\
 •	IR sensor to follow a line\
 •	Motors drive robot\
 •	Servo pans ultrasonic sensor for wider detection
-
-Learning Outcome:\
-•	Understand sensor fusion\
-•	Implement decision-making logic\
-•	Practice modular debugging
 
 🛡️ **Safety Considerations**\
 •	Power Isolation: Separate logic and motor power rails\
