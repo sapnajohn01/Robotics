@@ -1,6 +1,6 @@
 **Assignment 5: Future Robotics Trends Symposium**
 
-🤖 **Future Trends and Opportunities in Robotics**\
+🤖 **Future Trends and Opportunities in Robotics**
 
 🎯 **Presentation Objectives**\
 •	Explore emerging robotics technologies\
