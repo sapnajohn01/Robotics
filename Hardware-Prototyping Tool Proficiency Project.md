@@ -65,7 +65,7 @@ DC Motor:\
 •	Source → Battery GND\
 •	Flyback diode across motor terminals
 
-[**sensor-actuator**](https://github.com/sapnajohn01/Robotics/blob/main/sensor-actuator.ino)
+[**Sensor-Actuator**](https://github.com/sapnajohn01/Robotics/blob/main/sensor-actuator.ino)
 
 ✅ **Testing Strategy**\
 1.	Subsystem 1: Move hand near ultrasonic sensor → Servo should rotate accordingly.\
