@@ -49,23 +49,23 @@ Recommendation	✅ Best for dynamic, multi-step tasks with precision	✅ Best fo
 **In electronics manufacturing**-precision and reliability are paramount—especially when handling delicate components like PCBs, microchips, and sensors.\
 Here are two robot types that are particularly well-suited for this environment, along with a breakdown of their capabilities:
 
-SCARA Robot: Core Components & Functional Role\
+**SCARA Robot: Core Components & Functional Role**\
 SCARA robots are ideal for precision assembly, soldering, and pick-and-place tasks in confined workspaces.\
-🔧 Core Components\
-Component	Functionality\
-Rotary Actuators	Drive the horizontal arm joints for X-Y motion. Enable fast, repeatable movement.\
-Linear Actuator	Controls Z-axis movement (up/down). Crucial for vertical placement or insertion.\
-End-Effector (Tool)	Often a gripper, soldering iron, or vacuum nozzle. Tailored to the task.\
-Encoders	Measure joint positions for precise control. Support repeatability ±0.01 mm.\
-Force/Torque Sensors	Detect contact forces during insertion or screw-driving. Prevent damage.\
-Vision Sensors	Used for part recognition, alignment, and inspection.\
-Robot Controller	Executes motion planning, I/O control, and safety logic. Often integrated with PLCs.\
-Teaching Pendant	Allows manual programming and calibration. Useful for flexible setups.
+🔧 **Core Components**\
+**Component	Functionality**\
+Rotary Actuators:	Drive the horizontal arm joints for X-Y motion. Enable fast, repeatable movement.\
+Linear Actuator	Controls: Z-axis movement (up/down). Crucial for vertical placement or insertion.\
+End-Effector (Tool): Often a gripper, soldering iron, or vacuum nozzle. Tailored to the task.\
+Encoders:	Measure joint positions for precise control. Support repeatability ±0.01 mm.\
+Force/Torque Sensors:	Detect contact forces during insertion or screw-driving. Prevent damage.\
+Vision Sensors:	Used for part recognition, alignment, and inspection.\
+Robot Controller:	Executes motion planning, I/O control, and safety logic. Often integrated with PLCs.\
+Teaching Pendant:	Allows manual programming and calibration. Useful for flexible setups.
 
-Delta Robot: Core Components & Functional Role\
+**Delta Robot: Core Components & Functional Role**\
 Delta robots excel at high-speed sorting, packaging, and inspection—especially on conveyor systems.\
-🔧 Core Components\
-Component	Functionality\
+🔧 **Core Components**\
+**Component	Functionality**\
 Parallel Linkage Arms	Enable fast, synchronized motion with minimal inertia. Ideal for rapid tasks.\
 Linear Actuators (Base)	Drive each arm independently for coordinated movement.\
 End-Effector (Tool)	Typically a suction cup or gripper for lightweight parts.\
