@@ -4,28 +4,28 @@
 The two highly suitable robot types: Articulated Robots and Gantry Robots, both widely deployed across automotive plants.
 
 🤖 **1. Articulated Robots (6-Axis Arms)**\
-🔧 Core Components\
-Component	Functionality\
-Rotary Actuators	Enable multi-axis movement for welding, painting, and assembly.\
-Encoders	Provide joint position feedback for precise control.\
-Force/Torque Sensors	Detect contact forces—essential for tasks like windshield installation.\
-Vision Systems	Used for part recognition, seam tracking in welding, and quality inspection.\
-Robot Controller	Manages kinematics, safety logic, and task execution.\
-End-Effector	Can be a welding torch, gripper, or spray nozzle depending on the task.\
-🛠 Application Enablement\
+🔧 **Core Components**\
+**Component	Functionality**\
+Rotary Actuators:	Enable multi-axis movement for welding, painting, and assembly.\
+Encoders:	Provide joint position feedback for precise control.\
+Force/Torque Sensors:	Detect contact forces—essential for tasks like windshield installation.\
+Vision Systems:	Used for part recognition, seam tracking in welding, and quality inspection.\
+Robot Controller:	Manages kinematics, safety logic, and task execution.\
+End-Effector:	Can be a welding torch, gripper, or spray nozzle depending on the task.\
+🛠 **Application Enablement**\
 •	Spot Welding: High payload and precision allow consistent welds across car body panels.\
 •	Painting: Smooth multi-axis motion ensures uniform coating.\
 •	Assembly: Torque sensors prevent over-tightening; vision ensures alignment.
 
 🏗️ **2. Gantry Robots (Cartesian Robots)**\
-🔧 Core Components\
-Component	Functionality\
-Linear Actuators	Drive X, Y, Z motion across large workspaces.\
-Ball Screw or Belt Drives	Translate motor rotation into linear motion.\
-Vision Systems	Guide part placement and inspection over wide areas.\
-Robot Controller	Coordinates motion planning and I/O control.\
-End-Effector	Often a gripper or tool changer for handling parts.\
-🛠 Application Enablement
+🔧** Core Components**\
+**Component	Functionality**\
+Linear Actuators:	Drive X, Y, Z motion across large workspaces.\
+Ball Screw or Belt Drives:	Translate motor rotation into linear motion.\
+Vision Systems:	Guide part placement and inspection over wide areas.\
+Robot Controller:	Coordinates motion planning and I/O control.\
+End-Effector:	Often a gripper or tool changer for handling parts.\
+🛠 **Application Enablement**
 •	Machine Tending: Load/unload CNC machines or die-casting units with high repeatability.\
 •	Heavy Part Handling: Large payloads and workspace coverage for chassis or engine blocks.\
 •	Inspection: Vision-guided scanning of large components like doors or hoods.
