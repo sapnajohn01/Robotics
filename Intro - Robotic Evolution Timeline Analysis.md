@@ -54,11 +54,8 @@ Intelligent	Interaction & care	Emotional manipulation
 Autonomous	Autonomy & data	Privacy, bias, accountability
 
 📊 Visual Presentation 
-To bring this exhibit to life:
-•	Interactive Timeline Wall: Touchscreen display with animated robot models and voiceovers
-•	Robot Type Classification Chart: Color-coded matrix linking robot types to societal needs
-•	Ethics Corner: Augmented reality booth where visitors explore dilemmas (e.g., “Should robots replace caregivers?”)
 
+<img width="2400" height="1600" alt="Milestones" src="https://github.com/user-attachments/assets/8962fad7-5af8-4a01-842b-dee7bbc42dbd" />
 
 
 
