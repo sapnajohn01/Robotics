@@ -12,6 +12,11 @@ Robot Types: Automata\
 Societal Needs: Entertainment, philosophical exploration of life and motion \
 Ethical Considerations: None significant—robots were novelties.
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 **2. Early 20th Century (1900–1950)**\
 Year	Milestone	Inventor/Entity	Significance\
 1921	Term “Robot” coined	Karel Čapek (play R.U.R.)	Introduced concept of artificial labor\
