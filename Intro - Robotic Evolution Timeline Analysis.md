@@ -1,7 +1,7 @@
 Assignment 1: Robotic Evolution Timeline Analysis
 
 
-[Link Text]([URL](https://github.com/sapnajohn01/Robotics/blob/main/Motors.ino))
+[Link Text](https://github.com/sapnajohn01/Robotics/blob/main/Motors.ino)
 
 🕰️ **Robotics Evolution Timeline:-**
 
