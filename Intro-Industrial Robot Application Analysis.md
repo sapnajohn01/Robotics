@@ -109,7 +109,7 @@ Vision Sensors:	Track items on conveyors for real-time sorting and placement\
 Encoders:	Provide precise position feedback for accurate motion control\
 Robot Controller:	Manages kinematics, conveyor sync, and task execution\
 End-Effector:	Often a suction cup or soft gripper for delicate food items\
-🛠 **Application Enablement\**
+🛠 **Application Enablement**\
 •	Sorting baked goods by size or shape\
 •	Packaging chocolates into trays with high speed\
 •	Conveyor tracking for real-time pick-and-place
