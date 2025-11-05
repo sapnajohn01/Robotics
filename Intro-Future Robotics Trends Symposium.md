@@ -8,6 +8,10 @@
 •	Identify ethical considerations and challenges\
 •	Recommend responsible development strategies
 
+
+<img width="2400" height="1600" alt="Trends" src="https://github.com/user-attachments/assets/d1254d5e-ade8-444f-abde-0461183b6f81" />
+
+
 🧭 **1. Current State of Robotics**\
 •	Industrial Dominance: Robotics is heavily used in manufacturing, logistics, and healthcare.\
 •	Technological Backbone: Rigid-body mechanics, rule-based automation, and basic sensor integration.\
@@ -72,7 +76,6 @@ Quality of Life	Assistive care, safer workplaces, smart services	Privacy concern
 🏁 **Conclusion**\
 The next decade of robotics promises unprecedented transformation. By embracing emerging technologies with ethical foresight and inclusive innovation, we can shape a future where robots enhance—not replace—human potential.
 
-<img width="2400" height="1600" alt="Trends" src="https://github.com/user-attachments/assets/d1254d5e-ade8-444f-abde-0461183b6f81" />
 
 
 
