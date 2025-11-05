@@ -39,7 +39,7 @@ I've included a few reference diagrams below to guide your implementation. These
 
 🤖 **Autonomous Behavior Logic**\
 Behavior Flow:
-1.	Move Forward until obstacle detected by ultrasonic sensor.\
+1.	Move Forward until obstacle detected by ultrasonic sensor.
 2.	Check IR Sensors:\
 o	If left is clear → turn left.\
 o	If right is clear → turn right.\
