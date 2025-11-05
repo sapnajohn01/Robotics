@@ -3,12 +3,10 @@ Assignment 1: Robotic Evolution Timeline Analysis
 🕰️ **Robotics Evolution Timeline:-**
 
 **1. Ancient & Pre-Industrial Era (Pre-1900s)**
-| Year | Milestone | Inventor/Entity | Significance |
-| --- | --- | --- | --- | 
-| ~300 BCE | Mechanical pigeon | Archytas of Tarentum | Earliest recorded automaton using steam propulsion|
-| 1495 | Robotic knight | Leonardo da Vinci | Humanoid design with gears and pulleys |
-| 1738 | Digesting Duck | Jacques de Vaucanson | Simulated biological processes—early biomimicry |
-
+Year  Milestone  Inventor/Entity  Significance\
+~300 BCE  Mechanical pigeon  Archytas of Tarentum  Earliest recorded automaton using steam propulsion\
+1495  Robotic knight  Leonardo da Vinci  Humanoid design with gears and pulleys \
+1738  Digesting Duck  Jacques de Vaucanson | Simulated biological processes—early biomimicry \
 Robot Types: Automata\
 Societal Needs: Entertainment, philosophical exploration of life and motion \
 Ethical Considerations: None significant—robots were novelties.
