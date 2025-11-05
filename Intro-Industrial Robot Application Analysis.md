@@ -74,13 +74,13 @@ Encoders	Provide feedback on arm positions for accurate placement.\
 Robot Controller	Manages kinematics, conveyor tracking, and synchronization.\
 Conveyor Tracking Module	Syncs robot motion with moving parts on a belt.
 
-🛠 How These Enable Applications\
+🛠 **How These Enable Applications**\
 •	Soldering: Vision sensors align the PCB, actuators position the tool, and force sensors ensure contact pressure.\
 •	Assembly: High-speed rotary actuators and encoders allow precise placement of components.\
 •	Inspection: Vision systems detect defects; controller logs and flags anomalies.
 
-Summary Table: SCARA vs. Delta Robots in Electronics Manufacturing\
-Criteria	SCARA Robot	Delta Robot\
+**Summary Table: SCARA vs. Delta Robots in Electronics Manufacturing**\
+**Criteria	SCARA Robot	Delta Robot**\
 Speed	Moderate (ideal for assembly, soldering)	Very High (ideal for sorting, packaging)\
 Accuracy	Superior (±0.01 mm) for precision placement	Good (±0.1 mm); sufficient for inspection/sorting\
 Payload Capacity	High (up to 20–50 kg depending on model)	Low (typically 1–3 kg)\
@@ -89,50 +89,50 @@ Integration Complexity	Low to moderate; simpler kinematics and control	Moderate 
 Best Use Cases	Soldering, component assembly, screw-driving	High-speed sorting, inspection, packaging on conveyors\
 Environmental Fit	Cleanroom-ready; ESD-safe; compact footprint	Cleanroom-ready; ideal for overhead conveyor setups\
 Recommendation	✅ Best for precision assembly and heavier tasks	✅ Best for high-speed, lightweight sorting and inspection\
-🧠 Final Recommendation\
+🧠 **Final Recommendation**\
 •	For precision assembly, soldering, and heavier payloads → SCARA robots are the optimal choice due to their accuracy, compliance, and control simplicity.\
 •	For high-speed inspection, sorting, and packaging of lightweight components → Delta robots shine with unmatched speed and agility.\
 
 **In food processing manufacturing**-robots must meet strict hygiene standards, handle delicate or variable products, and operate efficiently in high-throughput environments. \
 The two highly suitable robot types: Delta Robots and Collaborative Robots (Cobots).
 
-🕷️ 1. Delta Robots\
-✅ Ideal For\
+🕷️ **1. Delta Robots\**
+✅ **Ideal For**\
 •	High-speed pick-and-place\
 •	Sorting and packaging\
 •	Lightweight product handling (e.g., baked goods, candies)\
-🔧 Core Components\
-Component	Functionality\
+🔧 **Core Components**\
+**Component	Functionality**\
 Parallel Linkage Arms	Enable ultra-fast, synchronized motion with low inertia\
 Linear Actuators	Drive each arm independently for coordinated movement\
 Vision Sensors	Track items on conveyors for real-time sorting and placement\
 Encoders	Provide precise position feedback for accurate motion control\
 Robot Controller	Manages kinematics, conveyor sync, and task execution\
 End-Effector	Often a suction cup or soft gripper for delicate food items\
-🛠 Application Enablement\
+🛠 **Application Enablement\**
 •	Sorting baked goods by size or shape\
 •	Packaging chocolates into trays with high speed\
 •	Conveyor tracking for real-time pick-and-place
 
-🤝 2. Collaborative Robots (Cobots)\
-✅ Ideal For\
+🤝 **2. Collaborative Robots (Cobots)**\
+✅ **Ideal For**\
 •	Flexible assembly and packaging\
 •	Quality inspection\
 •	Direct human-robot interaction (e.g., garnishing, tray loading)\
-🔧 Core Components\
-Component	Functionality\
+🔧 **Core Components**\
+**Component	Functionality**\
 Rotary Actuators	Enable multi-axis movement for flexible task execution\
 Force/Torque Sensors	Ensure safe interaction and adaptive gripping\
 Vision Systems	Used for inspection, alignment, and adaptive handling\
 Robot Controller	Includes safety logic, motion planning, and user-friendly interfaces\
 End-Effector	Can be a soft gripper, spatula, or tool changer depending on the task\
-🛠 Application Enablement\
+🛠 **Application Enablement**\
 •	Tray loading with variable product sizes\
 •	Garnishing or decorating baked goods\
 •	Visual inspection of packaging or labeling\
 
 ⚖️ **Comparative Analysis: Delta vs. Collaborative Robots**\
-Criteria	Delta Robot	Collaborative Robot (Cobot)\
+**Criteria	Delta Robot	Collaborative Robot (Cobot)**\
 Precision	High (±0.1 mm); ideal for sorting and placement	Moderate to High (±0.1–0.2 mm); sufficient for inspection and flexible tasks\
 Speed	Very High (up to 300 picks/min)	Moderate; optimized for safe human interaction\
 Payload Capacity	Low (0.5–3 kg); suitable for lightweight items	Moderate (up to 10 kg); handles trays, containers, and tools\
