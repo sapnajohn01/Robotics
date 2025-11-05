@@ -85,5 +85,7 @@ Learning Outcome:\
 •	Heat Management: Ventilation slots and heat sinks\
 •	Safe Coding: Include failsafe conditions (e.g., stop motors if sensor fails)
 
+**Wiring diagrams and connection guides showing how components interface**
+
 ![Wiring Dia](https://github.com/user-attachments/assets/c1160390-89f4-4374-aefe-418b40536822)
 
