@@ -1,12 +1,15 @@
-Assignment 4: Prototyping Tool Proficiency Project
+**Assignment 4: Prototyping Tool Proficiency Project**
 
 Here's a complete walkthrough to help you build and demonstrate a professional-grade sensor-actuator system using solid prototyping techniques.
-🛠️ System Overview
+
+🛠️ **System Overview**
 You'll build a dual sensor-actuator setup:
 •	Sensor 1: Ultrasonic sensor → Actuator 1: Servo motor (position control)
 •	Sensor 2: Light sensor (photoresistor) → Actuator 2: DC motor (speed control)
+
 All components will be mounted on a well-organized breadboard, powered by a regulated 5V supply, and controlled via an Arduino Uno.
-🔧 Hardware Components
+
+🔧 **Hardware Components**
 Component	Purpose
 Arduino Uno	Microcontroller
 HC-SR04	Ultrasonic distance sensor
@@ -20,7 +23,7 @@ Multimeter	Voltage and continuity checks
 Wire strippers	Clean wire prep
 Soldering iron	Modify or reinforce joints
 
-🧰 Prototyping Best Practices
+🧰 **Prototyping Best Practices**
 ✅ Breadboard Layout
 •	Use side rails for power (red) and ground (black)
 •	Group components logically:
@@ -38,7 +41,8 @@ o	Center: Arduino connections
 o	Check voltage at sensor outputs
 o	Confirm MOSFET gate switching
 •	Solder headers or reinforce weak joints if needed
-🔌 Circuit Connections
+
+🔌 **Circuit Connections**
 1. Ultrasonic Sensor → Servo Motor
 •	HC-SR04:
 o	VCC → 5V
@@ -49,7 +53,8 @@ Servo:
 •	Signal → D6
 •	VCC → 5V
 •	GND → GND
-2. Photoresistor → DC Motor via MOSFET
+
+3. **Photoresistor → DC Motor via**
 •	Voltage divider:
 o	Photoresistor + 10kΩ between 5V and GND
 o	Junction → A0
@@ -59,6 +64,7 @@ DC Motor:
 •	Drain → Motor GND
 •	Source → Battery GND
 •	Flyback diode across motor terminals
+
 #include <Servo.h>
 Servo myServo;
 
@@ -98,7 +104,8 @@ void loop() {
 
   delay(100);
 }
-✅ Testing Strategy
+
+✅ **Testing Strategy**
 1.	Subsystem 1: Move hand near ultrasonic sensor → Servo should rotate accordingly.
 2.	Subsystem 2: Vary light intensity → DC motor speed should change.
 3.	Use multimeter to verify:
@@ -106,7 +113,7 @@ o	Sensor voltages
 o	MOSFET gate switching
 o	Servo signal pulses
 
-🧪 Final Integration
+🧪 **Final Integration**
 Once both subsystems work independently:
 •	Mount components securely
 •	Label wires and pins
