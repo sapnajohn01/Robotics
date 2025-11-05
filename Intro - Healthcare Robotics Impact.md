@@ -69,7 +69,7 @@ Patient Outcomes	Faster recovery, fewer complications, personalized care	Over-re
 Healthcare Costs	Reduced labor strain, fewer errors, optimized workflows	High upfront investment, maintenance costs\
 Accessibility	Remote care in underserved areas, scalable rehab solutions	Digital divide, unequal access in low-resource settings
 
-**III. ⚖️ Ethical Analysis**\
+**III. ⚖️ Ethical Analysis**
 1. Privacy & Data Security\
 •	Robots collect sensitive biometric and behavioural data.\
 •	Risk of breaches if systems lack encryption or access controls.\
