@@ -1,7 +1,7 @@
 **Assignment 3: Healthcare Robotics Impact Assessment**
 
 🩺**Robotics in Healthcare: Applications, Impacts, Ethics, and Future Trends**\
-I. 🔧 **Application Categories & Robot Types**\
+🔧I. **Application Categories & Robot Types**\
 **1. Surgical Robots**\
 •	Key Systems:\
 o	da Vinci Surgical System: Teleoperated robot for minimally invasive procedures.\
