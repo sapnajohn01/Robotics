@@ -3,8 +3,7 @@ Assignment 1: Robotic Evolution Timeline Analysis
 🕰️ **Robotics Evolution Timeline:-**
 
 **1. Ancient & Pre-Industrial Era (Pre-1900s)**\
-| Year| Milestone | Inventor/Entity | Significance |\
-| --- | --- | --- | --- |
+      
 |~300 BCE|	Mechanical pigeon	| Archytas of Tarentum	|Earliest recorded automaton using steam propulsion|
 |1495|	Robotic knight	|Leonardo da Vinci|Humanoid design with gears and pulleys|\
 |1738|	Digesting Duck	|Jacques de Vaucanson	|Simulated biological processes—early biomimicry|\
@@ -12,7 +11,7 @@ Robot Types: Automata\
 Societal Needs: Entertainment, philosophical exploration of life and motion \
 Ethical Considerations: None significant—robots were novelties.
 
-| Command | Description | Command | Description |
+| Year | Milestone | Inventor/Entity | Significance |
 | --- | --- | --- | --- | 
 | git status | List all new or modified files | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged | git diff | Show file differences that haven't been staged |
@@ -58,6 +57,11 @@ Ancient	Curiosity & mimicry	None\
 Industrial	Efficiency & scale	Job loss, safety\
 Intelligent	Interaction & care	Emotional manipulation\
 Autonomous	Autonomy & data	Privacy, bias, accountability
+
+| Command | Description | Command | Description |
+| --- | --- | --- | --- | 
+| git status | List all new or modified files | git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged | git diff | Show file differences that haven't been staged |
 
 📊**Visual Presentation**
 
