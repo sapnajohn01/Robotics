@@ -28,7 +28,7 @@ IR Sensor Left	A0	Analog input\
 IR Sensor Right	A1	Analog input\
 Power Supply	VIN, GND	Regulated 5V to Arduino
 
-🧾 Circuit Diagram\
+🧾 Circuit Diagram
 I've included a few reference diagrams below to guide your implementation. These show how to wire the motor driver, sensors, and Arduino together for full integration.\
 
 🔧 Implementation Tips\
@@ -38,7 +38,7 @@ I've included a few reference diagrams below to guide your implementation. These
 •	Label all connections clearly for educational clarity.
 
 🤖 **Autonomous Behavior Logic**\
-Behavior Flow:\
+Behavior Flow:
 1.	Move Forward until obstacle detected by ultrasonic sensor.\
 2.	Check IR Sensors:\
 o	If left is clear → turn left.\
