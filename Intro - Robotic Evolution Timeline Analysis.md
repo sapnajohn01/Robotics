@@ -2,6 +2,10 @@
 
 🕰️ **Robotics Evolution Timeline:-**
 
+📊**Visual Presentation**
+
+<img width="2400" height="1600" alt="Milestones" src="https://github.com/user-attachments/assets/8962fad7-5af8-4a01-842b-dee7bbc42dbd" />
+
 **1. Ancient & Pre-Industrial Era (Pre-1900s)**
 Year  Milestone  Inventor/Entity  Significance\
 ~300 BCE  Mechanical pigeon  Archytas of Tarentum  Earliest recorded automaton using steam propulsion\
@@ -53,9 +57,6 @@ Industrial	Efficiency & scale	Job loss, safety\
 Intelligent	Interaction & care	Emotional manipulation\
 Autonomous	Autonomy & data	Privacy, bias, accountability
 
-📊**Visual Presentation**
-
-<img width="2400" height="1600" alt="Milestones" src="https://github.com/user-attachments/assets/8962fad7-5af8-4a01-842b-dee7bbc42dbd" />
 
 
 
