@@ -1,10 +1,10 @@
 **Assignment 2: Industrial Robot Application Analysis**
 
-In automotive manufacturing—where tasks range from heavy-duty welding to delicate assembly—robot selection hinges on precision, payload, workspace, and environmental compatibility. \
+**In automotive manufacturing**—where tasks range from heavy-duty welding to delicate assembly—robot selection hinges on precision, payload, workspace, and environmental compatibility. \
 The two highly suitable robot types: Articulated Robots and Gantry Robots, both widely deployed across automotive plants.
 
-🤖 **1. Articulated Robots (6-Axis Arms)**
-🔧 Core Components
+🤖 **1. Articulated Robots (6-Axis Arms)**\
+🔧 Core Components\
 Component	Functionality\
 Rotary Actuators	Enable multi-axis movement for welding, painting, and assembly.\
 Encoders	Provide joint position feedback for precise control.\
@@ -17,8 +17,8 @@ End-Effector	Can be a welding torch, gripper, or spray nozzle depending on the t
 •	Painting: Smooth multi-axis motion ensures uniform coating.\
 •	Assembly: Torque sensors prevent over-tightening; vision ensures alignment.
 
-🏗️ **2. Gantry Robots (Cartesian Robots)**
-🔧 Core Components
+🏗️ **2. Gantry Robots (Cartesian Robots)**\
+🔧 Core Components\
 Component	Functionality\
 Linear Actuators	Drive X, Y, Z motion across large workspaces.\
 Ball Screw or Belt Drives	Translate motor rotation into linear motion.\
@@ -30,7 +30,7 @@ End-Effector	Often a gripper or tool changer for handling parts.\
 •	Heavy Part Handling: Large payloads and workspace coverage for chassis or engine blocks.\
 •	Inspection: Vision-guided scanning of large components like doors or hoods.
 
-⚖️** Comparative Analysis: Articulated vs. Gantry Robots**
+⚖️** Comparative Analysis: Articulated vs. Gantry Robots**\
 Criteria	Articulated Robot	Gantry Robot\
 Precision	High (±0.02–0.05 mm); ideal for welding, painting	Moderate (±0.1 mm); sufficient for handling and inspection\
 Payload Capacity	Medium to High (up to 500 kg depending on model)	Very High (up to several tons with reinforced structure)\
@@ -42,8 +42,8 @@ Integration Complexity	Moderate; requires calibration and safety fencing	High; n
 Best Use Cases	Welding, painting, assembly, screw-driving	Machine tending, heavy part handling, large-area inspection\
 Recommendation	✅ Best for dynamic, multi-step tasks with precision	✅ Best for large, heavy, repetitive tasks across wide workspaces
 
-🧠 **Final Recommendation**
-•	Use Articulated Robots for flexible, high-precision tasks like welding, painting, and assembly—especially where multi-axis motion and tool versatility are needed.
+🧠 **Final Recommendation**\
+•	Use Articulated Robots for flexible, high-precision tasks like welding, painting, and assembly—especially where multi-axis motion and tool versatility are needed.\
 •	Deploy Gantry Robots for heavy-duty, large-scale operations like machine tending, die-casting, and inspection of oversized components.
 
 In electronics manufacturing, precision and reliability are paramount—especially when handling delicate components like PCBs, microchips, and sensors.\
@@ -79,16 +79,16 @@ Conveyor Tracking Module	Syncs robot motion with moving parts on a belt.
 •	Assembly: High-speed rotary actuators and encoders allow precise placement of components.\
 •	Inspection: Vision systems detect defects; controller logs and flags anomalies.
 
-Summary Table: SCARA vs. Delta Robots in Electronics Manufacturing
-Criteria	SCARA Robot	Delta Robot
-Speed	Moderate (ideal for assembly, soldering)	Very High (ideal for sorting, packaging)
-Accuracy	Superior (±0.01 mm) for precision placement	Good (±0.1 mm); sufficient for inspection/sorting
-Payload Capacity	High (up to 20–50 kg depending on model)	Low (typically 1–3 kg)
-Flexibility	Good for horizontal tasks; limited vertical reach	Excellent for agile, overhead tasks; limited Z-axis range
-Integration Complexity	Low to moderate; simpler kinematics and control	Moderate to high; requires advanced calibration and vision sync
-Best Use Cases	Soldering, component assembly, screw-driving	High-speed sorting, inspection, packaging on conveyors
-Environmental Fit	Cleanroom-ready; ESD-safe; compact footprint	Cleanroom-ready; ideal for overhead conveyor setups
-Recommendation	✅ Best for precision assembly and heavier tasks	✅ Best for high-speed, lightweight sorting and inspection
+Summary Table: SCARA vs. Delta Robots in Electronics Manufacturing\
+Criteria	SCARA Robot	Delta Robot\
+Speed	Moderate (ideal for assembly, soldering)	Very High (ideal for sorting, packaging)\
+Accuracy	Superior (±0.01 mm) for precision placement	Good (±0.1 mm); sufficient for inspection/sorting\
+Payload Capacity	High (up to 20–50 kg depending on model)	Low (typically 1–3 kg)\
+Flexibility	Good for horizontal tasks; limited vertical reach	Excellent for agile, overhead tasks; limited Z-axis range\
+Integration Complexity	Low to moderate; simpler kinematics and control	Moderate to high; requires advanced calibration and vision sync\
+Best Use Cases	Soldering, component assembly, screw-driving	High-speed sorting, inspection, packaging on conveyors\
+Environmental Fit	Cleanroom-ready; ESD-safe; compact footprint	Cleanroom-ready; ideal for overhead conveyor setups\
+Recommendation	✅ Best for precision assembly and heavier tasks	✅ Best for high-speed, lightweight sorting and inspection\
 🧠 Final Recommendation
 •	For precision assembly, soldering, and heavier payloads → SCARA robots are the optimal choice due to their accuracy, compliance, and control simplicity.
 •	For high-speed inspection, sorting, and packaging of lightweight components → Delta robots shine with unmatched speed and agility.
