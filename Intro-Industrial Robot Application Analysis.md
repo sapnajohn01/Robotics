@@ -31,7 +31,7 @@ End-Effector:	Often a gripper or tool changer for handling parts.\
 •	Inspection: Vision-guided scanning of large components like doors or hoods.
 
 ⚖️**Comparative Analysis: Articulated vs. Gantry Robots**\
-Criteria	Articulated Robot	Gantry Robot\
+**Criteria	Articulated Robot	Gantry Robot**\
 Precision	High (±0.02–0.05 mm); ideal for welding, painting	Moderate (±0.1 mm); sufficient for handling and inspection\
 Payload Capacity	Medium to High (up to 500 kg depending on model)	Very High (up to several tons with reinforced structure)\
 Workspace Needs	Flexible; compact footprint with wide reach	Large footprint; ideal for overhead or linear layouts\
@@ -66,13 +66,13 @@ Teaching Pendant:	Allows manual programming and calibration. Useful for flexible
 Delta robots excel at high-speed sorting, packaging, and inspection—especially on conveyor systems.\
 🔧 **Core Components**\
 **Component	Functionality**\
-Parallel Linkage Arms	Enable fast, synchronized motion with minimal inertia. Ideal for rapid tasks.\
-Linear Actuators (Base)	Drive each arm independently for coordinated movement.\
-End-Effector (Tool)	Typically a suction cup or gripper for lightweight parts.\
-Vision System	Mounted overhead for real-time tracking of moving objects.\
-Encoders	Provide feedback on arm positions for accurate placement.\
-Robot Controller	Manages kinematics, conveyor tracking, and synchronization.\
-Conveyor Tracking Module	Syncs robot motion with moving parts on a belt.
+Parallel Linkage Arms:Enable fast, synchronized motion with minimal inertia. Ideal for rapid tasks.\
+Linear Actuators (Base):Drive each arm independently for coordinated movement.\
+End-Effector (Tool): Typically a suction cup or gripper for lightweight parts.\
+Vision System: Mounted overhead for real-time tracking of moving objects.\
+Encoders: Provide feedback on arm positions for accurate placement.\
+Robot Controller:	Manages kinematics, conveyor tracking, and synchronization.\
+Conveyor Tracking Module:	Syncs robot motion with moving parts on a belt.
 
 🛠 **How These Enable Applications**\
 •	Soldering: Vision sensors align the PCB, actuators position the tool, and force sensors ensure contact pressure.\
@@ -103,12 +103,12 @@ The two highly suitable robot types: Delta Robots and Collaborative Robots (Cobo
 •	Lightweight product handling (e.g., baked goods, candies)\
 🔧 **Core Components**\
 **Component	Functionality**\
-Parallel Linkage Arms	Enable ultra-fast, synchronized motion with low inertia\
-Linear Actuators	Drive each arm independently for coordinated movement\
-Vision Sensors	Track items on conveyors for real-time sorting and placement\
-Encoders	Provide precise position feedback for accurate motion control\
-Robot Controller	Manages kinematics, conveyor sync, and task execution\
-End-Effector	Often a suction cup or soft gripper for delicate food items\
+Parallel Linkage Arms:Enable ultra-fast, synchronized motion with low inertia\
+Linear Actuators:	Drive each arm independently for coordinated movement\
+Vision Sensors:	Track items on conveyors for real-time sorting and placement\
+Encoders:	Provide precise position feedback for accurate motion control\
+Robot Controller:	Manages kinematics, conveyor sync, and task execution\
+End-Effector:	Often a suction cup or soft gripper for delicate food items\
 🛠 **Application Enablement\**
 •	Sorting baked goods by size or shape\
 •	Packaging chocolates into trays with high speed\
@@ -121,11 +121,11 @@ End-Effector	Often a suction cup or soft gripper for delicate food items\
 •	Direct human-robot interaction (e.g., garnishing, tray loading)\
 🔧 **Core Components**\
 **Component	Functionality**\
-Rotary Actuators	Enable multi-axis movement for flexible task execution\
-Force/Torque Sensors	Ensure safe interaction and adaptive gripping\
-Vision Systems	Used for inspection, alignment, and adaptive handling\
-Robot Controller	Includes safety logic, motion planning, and user-friendly interfaces\
-End-Effector	Can be a soft gripper, spatula, or tool changer depending on the task\
+Rotary Actuators:	Enable multi-axis movement for flexible task execution\
+Force/Torque Sensors:	Ensure safe interaction and adaptive gripping\
+Vision Systems:	Used for inspection, alignment, and adaptive handling\
+Robot Controller:	Includes safety logic, motion planning, and user-friendly interfaces\
+End-Effector:	Can be a soft gripper, spatula, or tool changer depending on the task\
 🛠 **Application Enablement**\
 •	Tray loading with variable product sizes\
 •	Garnishing or decorating baked goods\
