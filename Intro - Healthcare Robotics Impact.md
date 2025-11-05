@@ -98,7 +98,7 @@ Rural Access	Telepresence robots extend specialist care to remote areas
 •	Brain-Computer Interfaces (BCIs): Mind-controlled rehabilitation systems\
 •	Telesurgery via 5G: Remote operations with ultra-low latency
 
-**VI. ✅ Recommendations for Responsible Implementation**\
+**VI.✅ Recommendations for Responsible Implementation**\
 1.	Ethical Design: Embed transparency, fairness, and inclusivity in robot algorithms.\
 2.	Regulatory Harmonization: Advocate for global standards in certification and liability.\
 3.	Human-Cantered Integration: Ensure robots complement—not replace—clinical judgment and empathy.\
