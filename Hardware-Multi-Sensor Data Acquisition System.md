@@ -13,7 +13,7 @@ HC-SR04 (Trig/Echo)	D9 / D10	Use 5V logic, no pull-up needed\
 LM35 (Analog Temp)	A0	Use voltage divider if Vout > 5V\
 IR Obstacle Sensor	D2	Use pull-up resistor if noisy signal
 
-🧮 **Signal Filtering & Calibration\**
+🧮 **Signal Filtering & Calibration**\
 •	Moving Average Filter: Smooths out fluctuations over 5 samples.\
 •	Calibration:\
 o	LM35: Offset based on ambient temperature reference.\
