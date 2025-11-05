@@ -38,12 +38,12 @@ I've included a few reference diagrams below to guide your implementation. These
 •	Label all connections clearly for educational clarity.
 
 🤖 **Autonomous Behavior Logic**\
-Behavior Flow:\
+Behavior Flow:
 1.	Move Forward until obstacle detected by ultrasonic sensor.\
 2.	Check IR Sensors:\
 o	If left is clear → turn left.\
 o	If right is clear → turn right.\
-o	If both blocked → back up, then recheck.\
+o	If both blocked → back up, then recheck.
 3.	Resume Forward Motion when clear.
 
 Sample Arduino Logic (Pseudocode):
