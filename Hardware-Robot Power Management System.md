@@ -1,7 +1,5 @@
 **Assignment 3: Robot Power Management System**
 
-Here's a complete breakdown of the power management system for your mobile robot, combining hardware design and Arduino code to meet all your objectives.
-
 ⚡ **System Overview**\
 This system includes:\
 •	Battery voltage monitoring via a voltage divider\
@@ -42,9 +40,9 @@ This system includes:\
  •	Red → Critical (<7V)\
  Connect each LED with a 220Ω resistor to digital pins.
 
-[**Power**](https://github.com/sapnajohn01/Robotics/blob/main/Power.ino)
+[**Power.ino**](https://github.com/sapnajohn01/Robotics/blob/main/Power.ino)
 
  🧪 **Test & Validation**\
  •	Simulate voltage drop using a variable power supply or battery drain.\
  •	Confirm LED status and MOSFET switching behavior.\
- •	Use Serial.println() to monitor voltage readings.
+ •	Monitor voltage readings.
