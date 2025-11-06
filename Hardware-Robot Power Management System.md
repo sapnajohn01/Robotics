@@ -11,7 +11,7 @@ This system includes:\
  **1. Voltage Divider Circuit**\
  To safely read 9V–12V battery levels on an Arduino analog pin (max 5V), use a voltage divider:\
  Target: Scale 12V down to ≤5V Formula:\
-  Recommended Resistors:\
+ * Resistors:\
  •	R1 = 10kΩ\
  •	R2 = 4.7kΩ\
  •	Max input:\
