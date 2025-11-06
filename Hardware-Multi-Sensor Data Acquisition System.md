@@ -1,7 +1,6 @@
 **Assignment 2: Multi-Sensor Data Acquisition System**
 
-Here's a complete step-by-step guide and Arduino sketch to build your environmental monitoring prototype using:
-
+🧠 **System Overview**\
 •	Ultrasonic sensor (HC-SR04) – digital\
 •	Analog temperature sensor (LM35) – analog\
 •	IR obstacle sensor – digital
@@ -20,7 +19,7 @@ o	LM35: Offset based on ambient temperature reference.\
 o	HC-SR04: Adjust for known distance.\
 o	IR Sensor: Binary (0/1), no calibration needed.
 
-[**Sensor**](https://github.com/sapnajohn01/Robotics/blob/main/Sensor.ino)
+[**Sensor.ino**](https://github.com/sapnajohn01/Robotics/blob/main/Sensor.ino)
 
 🧪 **Calibration Tips**\
 •	Temperature: Compare with a digital thermometer and adjust tempOffset.\
