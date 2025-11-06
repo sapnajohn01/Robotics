@@ -8,7 +8,7 @@ This system includes:\
 •	Visual LED indicators for battery status
 
 🔧**Hardware Design**
- 1. Voltage Divider Circuit\
+ **1. Voltage Divider Circuit**\
  To safely read 9V–12V battery levels on an Arduino analog pin (max 5V), use a voltage divider:\
  Target: Scale 12V down to ≤5V Formula:
  
@@ -33,7 +33,7 @@ This system includes:\
  •	Gate → Arduino digital pin (via 220Ω resistor)\
  Add flyback diodes across motor terminals for protection.
 
- **4. LED Indicators**\
+ **3. LED Indicators**\
  Use 3 LEDs:\
  •	Green → Battery OK\
  •	Yellow → Warning (e.g., <8V)\
@@ -42,7 +42,7 @@ This system includes:\
 
 [**Power.ino**](https://github.com/sapnajohn01/Robotics/blob/main/Power.ino)
 
- 🧪 **Test & Validation**\
+ 🧪 **4. Test & Validation**\
  •	Simulate voltage drop using a variable power supply or battery drain.\
  •	Confirm LED status and MOSFET switching behavior.\
  •	Monitor voltage readings.
