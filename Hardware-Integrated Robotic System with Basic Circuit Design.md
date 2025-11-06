@@ -1,8 +1,5 @@
 **Assignment 5: Integrated Robotic System with Basic Circuit Design**
 
-This is a perfect showcase opportunity for a robotics education company—and right up your alley.\ 
-Here's a complete breakdown of the mobile robot platform design, from circuit architecture to autonomous behaviour.
-
 🧠 **System Overview**\
 Core Components:\
 •	Arduino Uno (or Nano for compact builds)\
@@ -18,7 +15,7 @@ Core Components:\
 •	Motors: Powered by 7.4V Li-ion battery via L298N\
 •	Arduino & Sensors: Powered by 5V regulated supply (can be derived using buck converter from 7.4V battery)
 
-•	⚙️ Connections Summary\
+•	**⚙️ Connections Summary**\
 Component	Arduino Pins	Notes\
 L298N IN1, IN2	D2, D3	Motor A control\
 L298N IN3, IN4	D4, D5	Motor B control\
@@ -28,10 +25,7 @@ IR Sensor Left	A0	Analog input\
 IR Sensor Right	A1	Analog input\
 Power Supply	VIN, GND	Regulated 5V to Arduino
 
-🧾 Circuit Diagram
-I've included a few reference diagrams below to guide your implementation. These show how to wire the motor driver, sensors, and Arduino together for full integration.
-
-🔧 Implementation Tips\
+🔧 **Implementation**\
 •	Use male headers and solder bridges on perfboard for clean layout.\
 •	Keep motor power lines separate from logic power to avoid noise.\
 •	Add decoupling capacitors near sensors and motor driver for stability.\
@@ -45,26 +39,6 @@ o	If left is clear → turn left.\
 o	If right is clear → turn right.\
 o	If both blocked → back up, then recheck.
 3.	Resume Forward Motion when clear.
-
-Sample Arduino Logic (Pseudocode):
-
-if (ultrasonicDistance > threshold) {
-  moveForward();
-} else {
-  if (IR_left_clear && !IR_right_clear) {
-    turnLeft();
-  } else if (!IR_left_clear && IR_right_clear) {
-    turnRight();
-  } else {
-    backUp();
-    delay(1000);
-  }
-}
-
-🖼️ **Reference Circuit Diagrams**\
-Here are some visual guides to help you wire everything correctly:\
-•	Obstacle Avoidance Robot Circuit Guide\
-•	GitHub Repository with Circuit Diagrams and Code
 
 <img width="1104" height="944" alt="visual diagram" src="https://github.com/user-attachments/assets/bfc0f13d-de4e-48fe-931d-34037de0a9df" />
 
