@@ -40,5 +40,5 @@ o	If right is clear → turn right.\
 o	If both blocked → back up, then recheck.
 3.	Resume Forward Motion when clear.
 
-<img width="1104" height="944" alt="visual diagram" src="https://github.com/user-attachments/assets/bfc0f13d-de4e-48fe-931d-34037de0a9df" />
+
 
