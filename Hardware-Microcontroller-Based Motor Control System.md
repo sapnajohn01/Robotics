@@ -14,7 +14,7 @@ DC Motor	L298N	ENA (PWM), IN1, IN2	External 7.5–12V	ENA for speed control\
 Servo	None	PWM pin (e.g., D9)	5V regulated	Use capacitor across VCC-GND\
 Stepper	ULN2003	IN1–IN4 (e.g., D4–D7)	External 5V	28BYJ-48 motor\
 
-[**Motor**](https://github.com/sapnajohn01/Robotics/blob/main/Motors.ino)
+[**Motor.ino**](https://github.com/sapnajohn01/Robotics/blob/main/Motors.ino)
 
 🔋 **Hardware Components**\
 •	DC Motor: Use external 7.5–12V supply to L298N's VCC. Connect GND to Arduino GND.\
