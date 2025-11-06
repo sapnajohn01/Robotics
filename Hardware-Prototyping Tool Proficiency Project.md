@@ -1,7 +1,5 @@
 **Assignment 4: Prototyping Tool Proficiency Project**
 
-Here's a complete walkthrough to help you build and demonstrate a professional-grade sensor-actuator system using solid prototyping techniques.
-
 🛠️ **System Overview**\
 You'll build a dual sensor-actuator setup:\
 •	Sensor 1: Ultrasonic sensor → Actuator 1: Servo motor (position control)\
@@ -65,7 +63,7 @@ DC Motor:\
 •	Source → Battery GND\
 •	Flyback diode across motor terminals
 
-[**Sensor-Actuator**](https://github.com/sapnajohn01/Robotics/blob/main/sensor-actuator.ino)
+[**Sensor-Actuator.ino**](https://github.com/sapnajohn01/Robotics/blob/main/sensor-actuator.ino)
 
 ✅ **Testing Strategy**\
 1.	Subsystem 1: Move hand near ultrasonic sensor → Servo should rotate accordingly.\
