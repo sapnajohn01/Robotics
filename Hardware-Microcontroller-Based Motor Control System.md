@@ -21,8 +21,8 @@ Stepper	ULN2003	IN1–IN4 (e.g., D4–D7)	External 5V	28BYJ-48 motor\
 •	Servo: Use a capacitor (e.g., 470µF) across 5V and GND to smooth current spikes.\
 •	Stepper: Power ULN2003 from external 5V. Avoid powering motors directly from Arduino 5V pin.
 
-🧰 **Presentation & Modularity**\
-•	Use color-coded jumper wires and breadboard labels for clarity.\
+🧰 **Modularity**\
+•	Color-code jumper wires and breadboard labeled for clarity.\
 •	Mount components on a laser-cut acrylic base or 3D-printed chassis.\
-•	Modularize code into separate .ino files or functions for each motor type.\
-•	Add toggle switches or buttons to activate motors individually for demo control.
+•	Modularize code into separate functions for each motor type in Motor.ino file.\
+•	Toggle switches or buttons to activate motors individually for control.
