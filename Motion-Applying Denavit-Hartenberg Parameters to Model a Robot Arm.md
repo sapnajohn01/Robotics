@@ -10,14 +10,14 @@ Joint Angle	 Angle from  to  about
 🤖 Step 2: Choose a Robotic Arm Configuration\
 Model a 4-DOF planar articulated arm with revolute joints. Assume:\
 •	All joints rotate in the XY plane.\
-•	Link lengths:  ,  ,  ,\
+•	Link lengths: L1=1.0,L2=0.8,L3=10.6,L4=0.4\
 •	All joints are revolute.
 
 📐 Step 3: Assign Coordinate Frames\
-Follow these rules:\
+Follow these rules\
 1.	 axis is along the axis of rotation.\
 2.	 is perpendicular to both  and.\
-3.	Origin is at the intersection of  and.
+3.	Origin is at the intersection of and.
 
 📊 Step 4: DH Parameter Table\
 Link
