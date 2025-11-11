@@ -21,13 +21,13 @@ Follow these rules:\
 
 📊 Step 4: DH Parameter Table\
 Link\
-1	0	0	0	 \
-2	 	0	0	 \
-3	 	0	0	 \
+1	0	0	0\
+2	 	0	0\
+3	 	0	0\
 4	 	0	0	 
 
-🔁 Step 5: Transformation Matrices\\
-Each transformation from frame  to  is:
+🔁 Step 5: Transformation Matrices\
+Each transformation from frame  to  is:\
 Multiply these matrices in sequence:\
 This gives the end-effector pose relative to the base.
 
@@ -35,6 +35,6 @@ This gives the end-effector pose relative to the base.
 Use geometric methods to compute the end-effector position:
  
 Compare this with the position extracted from the final transformation matrix.\
-🧪 Test Configurations\
+🧪 Test Configurations
 
 🧩 Python Script: DH-Based 2D Visualization\
