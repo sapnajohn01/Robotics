@@ -4,7 +4,7 @@ The Denavit-Hartenberg (DH) convention standardizes how coordinate frames are as
 Parameter	Symbol	Description\
 Link Length	 	Distance from  to  along\
 Link Twist	 	Angle from  to  about\
-Joint Offset	Distance from  to  along\ 
+Joint Offset	Distance from  to  along
 Joint Angle	 Angle from  to  about
 
 🤖 Step 2: Choose a Robotic Arm Configuration\
@@ -20,11 +20,11 @@ Follow these rules:\
 3.	Origin is at the intersection of  and.
 
 📊 Step 4: DH Parameter Table\
-Link\
-1	0	0	0\
-2	 	0	0\
-3	 	0	0\
-4	 	0	0	 
+Link
+1	0	0	0
+2	 	0	0
+3	 	0	0
+4	 	0	0	
 
 🔁 Step 5: Transformation Matrices\
 Each transformation from frame  to  is:\
