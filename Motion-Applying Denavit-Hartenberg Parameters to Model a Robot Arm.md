@@ -1,11 +1,11 @@
-🧠 Step 1: Understand DH Convention\
+🧠 Step 1: Understand DH Convention
 
 The Denavit-Hartenberg (DH) convention standardizes how coordinate frames are assigned to each joint in a serial manipulator. For each link  , define four parameters:\
 Parameter	Symbol	Description\
 Link Length	 	Distance from  to  along\
 Link Twist	 	Angle from  to  about\
-Joint Offset	 	Distance from  to  along\ 
-Joint Angle	 	Angle from  to  about
+Joint Offset	Distance from  to  along\ 
+Joint Angle	 Angle from  to  about
 
 🤖 Step 2: Choose a Robotic Arm Configuration\
 Model a 4-DOF planar articulated arm with revolute joints. Assume:\
