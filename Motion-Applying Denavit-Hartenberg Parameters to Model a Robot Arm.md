@@ -1,4 +1,4 @@
-<img width="566" height="21" alt="image" src="https://github.com/user-attachments/assets/0c89c389-127e-472c-a484-c27b19001f53" />**Assignment 4: Applying Denavit-Hartenberg Parameters to Model a Robot Arm**
+**Assignment 4: Applying Denavit-Hartenberg Parameters to Model a Robot Arm**
 
 🧠 **Step 1: Understand DH Convention**
 The Denavit-Hartenberg (DH) convention standardizes how coordinate frames are assigned to each joint in a serial manipulator. For each link  , define four parameters:\
