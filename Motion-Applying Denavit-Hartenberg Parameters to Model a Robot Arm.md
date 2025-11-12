@@ -16,16 +16,16 @@ Model a 4-DOF planar articulated arm with revolute joints. Assume:\
 
 📐 **Step 3: Assign Coordinate Frames**\
 Follow these rules
-1.	 axis is along the axis of rotation.
-2.	 is perpendicular to both  and.
-3.	Origin is at the intersection of and.
+1.	 Zaxis is along the axis of rotation.
+2.	 X(i) axis is perpendicular to both Z(i) and Z(i+!).
+3.	Origin is at the intersection of X(i) and Z(i).
 
 📊 **Step 4: DH Parameter Table**\
 Link a1, alpha1, d1, theta1
-1	0	0	0
-2	L1 0 0
-3	L2 0	0
-4	L3 0	0	
+1	0	0 0 01
+2	L1 0 0 02
+3	L2 0 0 03
+4	L3 0 0 04
 
 🔁 **Step 5: Transformation Matrices**\
 Each transformation from frame i to i+1:\
