@@ -14,17 +14,16 @@ Use Denavit-Hartenberg (DH) convention to define the robot’s kinematic chain:\
 •	Define DH parameters:\
 •	Construct transformation matrices  
 
+python code\
 
-python code
+import numpy as np\
 
-import numpy as np
-
-def dh_transform(theta, d, a, alpha):
-    return np.array([
-        [np.cos(theta), -np.sin(theta)*np.cos(alpha),  np.sin(theta)*np.sin(alpha), a*np.cos(theta)],
-        [np.sin(theta),  np.cos(theta)*np.cos(alpha), -np.cos(theta)*np.sin(alpha), a*np.sin(theta)],
-        [0,              np.sin(alpha),                np.cos(alpha),               d],
-        [0,              0,                            0,                           1]
+def dh_transform(theta, d, a, alpha):\
+    return np.array([\
+        [np.cos(theta), -np.sin(theta)*np.cos(alpha),  np.sin(theta)*np.sin(alpha), a*np.cos(theta)],\
+        [np.sin(theta),  np.cos(theta)*np.cos(alpha), -np.cos(theta)*np.sin(alpha), a*np.sin(theta)],\
+        [0,              np.sin(alpha),                np.cos(alpha),               d],\
+        [0,              0,                            0,                           1]\
     ])
 
 🔁 **Step 3: Workspace Sampling**\
@@ -34,12 +33,12 @@ Systematically vary each joint angle within its limits:\
 •	For full workspace: use nested loops to sample all combinations\
 Record the end-effector positions:
 
-positions = []
-for theta1 in np.linspace(-np.pi, np.pi, 50):
-    for theta2 in np.linspace(-np.pi/2, np.pi/2, 50):
-        # Compute T_0^n and extract position
-        T = compute_fk(theta1, theta2, ...)
-        pos = T[:3, 3]
+positions = []\
+for theta1 in np.linspace(-np.pi, np.pi, 50):\
+    for theta2 in np.linspace(-np.pi/2, np.pi/2, 50):\
+        # Compute T_0^n and extract position\
+        T = compute_fk(theta1, theta2, ...)\
+        pos = T[:3, 3]\
         positions.append(pos)
 
 📊 **Step 4: Visualization**\
