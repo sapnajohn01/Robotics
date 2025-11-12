@@ -9,7 +9,7 @@ Inverse kinematics is the process of determining joint parameters (angles or dis
 🦾 Step 2: Arm Configuration Assumption\
 We'll assume a planar RRR arm with:\
 •	Link lengths:\
-•	Joint angles:\  
+•	Joint angles:  
 •	Target position:  in 2D (extendable to 3D with orientation)
 
 📐 Step 3: Deriving Inverse Kinematics Equations\
