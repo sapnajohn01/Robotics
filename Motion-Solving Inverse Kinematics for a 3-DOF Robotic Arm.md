@@ -1,4 +1,4 @@
-**Assignment 3: Solving Inverse Kinematics for a 3-DOF Robotic **
+**Assignment 3: Solving Inverse Kinematics for a 3-DOF Robotic**
 
 🧠 **Step 1: Understanding Inverse Kinematics**\
 Inverse kinematics is the process of determining joint parameters (angles or displacements) that achieve a desired end-effector position. Unlike forward kinematics, IK can have:\
