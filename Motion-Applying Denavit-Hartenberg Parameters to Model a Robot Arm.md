@@ -15,17 +15,17 @@ Model a 4-DOF planar articulated arm with revolute joints. Assume:\
 •	All joints are revolute.
 
 📐 **Step 3: Assign Coordinate Frames**\
-Follow these rules\
-1.	 axis is along the axis of rotation.\
-2.	 is perpendicular to both  and.\
+Follow these rules
+1.	 axis is along the axis of rotation.
+2.	 is perpendicular to both  and.
 3.	Origin is at the intersection of and.
 
 📊 **Step 4: DH Parameter Table**\
-Link
+Link a1, alpha1, d1, theta1
 1	0	0	0
-2	L1	0	0
-3	L2	0	0
-4	L3	0	0	
+2	L1 0 0
+3	L2 0	0
+4	L3 0	0	
 
 🔁 **Step 5: Transformation Matrices**\
 Each transformation from frame i to i+1:\
@@ -39,7 +39,9 @@ x=L1cos(theta1)+L2(cos(theta1+theta2))+L3(cos(theta1+theta2+theta3))+L4(cos(thet
 y=L1sin(theta1)+L2(sin(theta1+theta2))+L3(sin(theta1+theta2+theta3))+L4(sin(theta1+theta2+theta3+theta4))
 
 Compare this with the position extracted from the final transformation matrix.\
-🧪 Test Configurations
+🧪 Test Configurations(in degrees)\
+•	 theta1=0 , theta2=0 ,theta3=0 ,theta3=0\
+•	 theta1=45 , theta2=-30 ,theta3=60 ,theta3=-15
 
 🧩 Python Script: DH-Based 2D Visualization\
 [**Denavit_Hartenberg.py**](https://github.com/sapnajohn01/Robotics/blob/main/Denavit_Hartenberg.py)
