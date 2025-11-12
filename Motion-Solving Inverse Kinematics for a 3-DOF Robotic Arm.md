@@ -21,15 +21,16 @@ y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \th
 Compute wrist position:\
 x_w = x - L_3 \cos(\phi)\
 y_w = y - L_3 \sin(\phi)\
-where  is the desired orientation of the end-effector.\
+where phi is the desired orientation of the end-effector.\
 
-Use Law of Cosines to find  :\
+Use Law of Cosines to find theta2 :\
 D = \frac{x_w^2 + y_w^2 - L_1^2 - L_2^2}{2 L_1 L_2}\
 \theta_2 = \arccos(D)\
 
-•  Use Law of Sines or tangent method to find  :\
-\theta_1 = \arctan2(y_w, x_w) - \arctan2(L_2 \sin(\theta_2), L_1 + L_2 \cos(\theta_2))\
-•  Compute  from orientation:\
+•  Use Law of Sines or tangent method to find theta1 :\
+\theta_1 = \arctan2(y_w, x_w) - \arctan2(L_2 \sin(\theta_2), L_1 + L_2 \cos(\theta_2))
+
+•  Compute theta3 from orientation:\
 \theta_3 = \phi - \theta_1 - \theta_2
 
 💻 **Step 4: Python Implementation**
@@ -69,6 +70,6 @@ def forward_kinematics(theta1, theta2, theta3, L1, L2, L3):\
     return x, y
     
 🧨 **Step 7: Testing Edge Cases**\
-•	Targets near max reach:  \
+•	Targets near max reach: x=L1+L2+L3 \
 •	Targets near origin\
 •	Targets requiring full extension or folding
