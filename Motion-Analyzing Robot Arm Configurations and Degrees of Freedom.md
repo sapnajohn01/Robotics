@@ -1,5 +1,5 @@
 
-Assignment 1: Analyzing Robot Arm Configurations and Degrees of Freedom
+**Assignment 1: Analyzing Robot Arm Configurations and Degrees of Freedom**
 
 🤖 **Robot Arm Configurations Overview**\
 Configuration	Joint Types	Typical DOF	Common Applications\
