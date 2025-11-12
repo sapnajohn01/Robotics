@@ -2,7 +2,7 @@
 
 🧠 **Step 1: Gather Technical Specifications**\
  Robots specifications:\
-•	Link lengths:\
+•	Link lengths:L1,L2..Ln\
 •	Joint types: Revolute or prismatic\
 •	Joint limits: Min/max angles or displacements\
 •	Degrees of freedom (DOF): Typically 4–6 for industrial arms\
