@@ -18,7 +18,7 @@ math\
 x = L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3)\
 y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)
 
-**Inverse Kinematics (Geometric Approach):**\
+**Inverse Kinematics (Geometric Approach):**
 1.	Compute wrist position:\
 math\
 x_w = x - L_3 \cos(\phi)\
