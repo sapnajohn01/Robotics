@@ -1,4 +1,6 @@
 
+Assignment 1: Analyzing Robot Arm Configurations and Degrees of Freedom
+
 🤖 **Robot Arm Configurations Overview**\
 Configuration	Joint Types	Typical DOF	Common Applications\
 Cartesian	3 Prismatic (P)	3	CNC machines, pick-and-place\
