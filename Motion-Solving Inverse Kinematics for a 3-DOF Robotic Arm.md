@@ -1,24 +1,24 @@
-Assignment 3: Solving Inverse Kinematics for a 3-DOF Robotic Arm
+**Assignment 3: Solving Inverse Kinematics for a 3-DOF Robotic **
 
-🧠 Step 1: Understanding Inverse Kinematics\
+🧠 **Step 1: Understanding Inverse Kinematics**\
 Inverse kinematics is the process of determining joint parameters (angles or displacements) that achieve a desired end-effector position. Unlike forward kinematics, IK can have:\
 •	Multiple solutions (e.g., elbow-up vs elbow-down)\
 •	No solution (if the target is outside the workspace)\
 •	Singularities (where small changes in position cause large changes in joint angles)
 
-🦾 Step 2: Arm Configuration Assumption\
-We'll assume a planar RRR arm with:\
+🦾 **Step 2: Arm Configuration Assumption**\
+Assume a planar RRR arm with:\
 •	Link lengths:\
 •	Joint angles:  
 •	Target position:  in 2D (extendable to 3D with orientation)
 
-📐 Step 3: Deriving Inverse Kinematics Equations\
+📐 **Step 3: Deriving Inverse Kinematics Equations**\
 Forward Kinematics:\
 math\
 x = L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3)\
 y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)
 
-Inverse Kinematics (Geometric Approach):\
+**Inverse Kinematics (Geometric Approach):**\
 1.	Compute wrist position:\
 math\
 x_w = x - L_3 \cos(\phi)\
@@ -35,8 +35,7 @@ math\
 math\
 \theta_3 = \phi - \theta_1 - \theta_2
 
-💻 Step 4: Python Implementation
-
+💻 **Step 4: Python Implementation**
 import numpy as np\
 def inverse_kinematics(x, y, phi, L1, L2, L3):\
     x_w = x - L3 * np.cos(phi)\
@@ -54,8 +53,8 @@ def inverse_kinematics(x, y, phi, L1, L2, L3):\
 
     return solutions
     
-🧭 Step 5: Handling Multiple Solutions\
-You can select the best solution using:\
+🧭 **Step 5: Handling Multiple Solutions**\
+Select the best solution using:\
 •	Minimal joint movement (compare with current joint angles)\
 •	Avoiding joint limits\
 •	Favoring elbow-down or elbow-up configurations\
@@ -65,14 +64,14 @@ def select_best_solution(solutions, current_angles):\
         return sum(abs(sol[i] - current_angles[i]) for i in range(3))\
     return min(solutions, key=cost)
     
-🧪 Step 6: Validation with Forward Kinematics\
+🧪 **Step 6: Validation with Forward Kinematics**\
 python\
 def forward_kinematics(theta1, theta2, theta3, L1, L2, L3):\
     x = L1 * np.cos(theta1) + L2 * np.cos(theta1 + theta2) + L3 * np.cos(theta1 + theta2 + theta3)\
     y = L1 * np.sin(theta1) + L2 * np.sin(theta1 + theta2) + L3 * np.sin(theta1 + theta2 + theta3)\
     return x, y
     
-🧨 Step 7: Testing Edge Cases\
+🧨 **Step 7: Testing Edge Cases**\
 •	Targets near max reach:  \
 •	Targets near origin\
 •	Targets requiring full extension or folding
