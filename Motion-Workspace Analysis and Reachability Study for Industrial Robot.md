@@ -11,12 +11,12 @@
 📐 **Step 2: Forward Kinematics Modeling**\
 Use Denavit-Hartenberg (DH) convention to define the robot’s kinematic chain:\
 •	Assign coordinate frames to each joint\
-•	Define DH parameters:\
-•	Construct transformation matrices  
+•	Define DH parameters: a1, alpha1, d1, theta1\
+•	Construct transformation matrices:\
+T(0-4)=T(0-1)+T(1-2)+T(2-3)+T(3-4)
 
 python code\
-
-import numpy as np\
+import numpy as np
 
 def dh_transform(theta, d, a, alpha):\
     return np.array([\
