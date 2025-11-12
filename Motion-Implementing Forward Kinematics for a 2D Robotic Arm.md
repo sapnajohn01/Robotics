@@ -1,21 +1,20 @@
-Assignment 2: Implementing Forward Kinematics for a 2D Robotic Arm
+**Assignment 2: Implementing Forward Kinematics for a 2D Robotic Arm**
 
-🧠 Step 1: Define the Coordinate System\
+🧠 **Step 1: Define the Coordinate System**\
 •	Base Frame: Origin at the shoulder joint (0, 0)\
 •	Link Definitions:\
 o	Link 1: Length = L1, angle = θ1 (relative to x-axis)\
 o	Link 2: Length = L2, angle = θ2 (relative to Link 1)
 
-📐 Step 2: Derive Forward Kinematics Equations\
+📐 **Step 2: Derive Forward Kinematics Equations**\
 Using trigonometry:\
 math\
 x = L1 * cos(θ1) + L2 * cos(θ1 + θ2)\
 y = L1 * sin(θ1) + L2 * sin(θ1 + θ2)\
 These give the end-effector position (x, y) in the 2D plane.
 
-💻 Step 3: Implement in Python\
-Here’s a clean Python implementation using numpy and matplotlib:\
-python\
+💻 **Step 3: Implement in Python**
+
 import numpy as np\
 import matplotlib.pyplot as plt\
 from matplotlib.widgets import Slider
