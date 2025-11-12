@@ -11,10 +11,10 @@ Articulated	3+ Revolute (R)	6+	Complex assembly, welding, packaging
 🧮 **Degrees of Freedom (DOF) Calculation**\
 Using the Grübler-Kutzbach formula for spatial mechanisms:
  
-Where:\
-•	 : Number of links (including base)\
-•	 : Number of joints\
-•	 : DOF of each joint (1 for P or R)
+
+•	 N: Number of links (including base)\
+•	 J: Number of joints\
+•	 I: DOF of each joint (1 for P or R)
 
 **DOF Breakdown**\
 Configuration	Links (N)	Joints (J)	DOF per Joint	Total DOF\
