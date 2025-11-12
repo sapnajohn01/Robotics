@@ -8,31 +8,28 @@ Inverse kinematics is the process of determining joint parameters (angles or dis
 
 🦾 **Step 2: Arm Configuration Assumption**\
 Assume a planar RRR arm with:\
-•	Link lengths:\
-•	Joint angles:  
-•	Target position:  in 2D (extendable to 3D with orientation)
+•	L1,L2,L3 Link lengths:\
+•	theta1, theta2, theta3 Joint angles:  
+•	(x,y) Target position:  in 2D (extendable to 3D with orientation)
 
 📐 **Step 3: Deriving Inverse Kinematics Equations**\
 Forward Kinematics:\
-math\
 x = L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3)\
 y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)
 
 **Inverse Kinematics (Geometric Approach):**
-1.	Compute wrist position:\
-math\
+Compute wrist position:\
 x_w = x - L_3 \cos(\phi)\
 y_w = y - L_3 \sin(\phi)\
 where  is the desired orientation of the end-effector.\
+
 Use Law of Cosines to find  :\
-math\
 D = \frac{x_w^2 + y_w^2 - L_1^2 - L_2^2}{2 L_1 L_2}\
 \theta_2 = \arccos(D)\
+
 •  Use Law of Sines or tangent method to find  :\
-math\
 \theta_1 = \arctan2(y_w, x_w) - \arctan2(L_2 \sin(\theta_2), L_1 + L_2 \cos(\theta_2))\
 •  Compute  from orientation:\
-math\
 \theta_3 = \phi - \theta_1 - \theta_2
 
 💻 **Step 4: Python Implementation**
