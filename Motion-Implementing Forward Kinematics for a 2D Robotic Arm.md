@@ -63,4 +63,4 @@ plt.show()
 0°	0°	(L1 + L2, 0)\
 90°	0°	(0, L1 + L2)\
 90°	90°	(-L2, L1)\
-Use np.deg2rad() to convert degrees to radians for testing.
+np.deg2rad() to convert degrees to radians for testing.
