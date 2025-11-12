@@ -21,7 +21,7 @@ y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \th
 Compute wrist position:\
 x_w = x - L_3 \cos(\phi)\
 y_w = y - L_3 \sin(\phi)\
-where phi is the desired orientation of the end-effector.\
+where phi is the desired orientation of the end-effector.
 
 Use Law of Cosines to find theta2 :\
 D = \frac{x_w^2 + y_w^2 - L_1^2 - L_2^2}{2 L_1 L_2}\
