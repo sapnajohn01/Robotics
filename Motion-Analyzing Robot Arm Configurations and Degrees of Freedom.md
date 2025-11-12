@@ -24,7 +24,8 @@ Spherical	4	3	1 (R, R, P)	3\
 Articulated	7	6	1 (R)	6
 
 
-📐 **Workspace Modeling & Reachability**\
+📐 **Workspace Modeling & Reachability**
+
 1. Cartesian\
 •	Shape: Rectangular prism\
 •	Reach: Defined by linear axes (X, Y, Z)\
