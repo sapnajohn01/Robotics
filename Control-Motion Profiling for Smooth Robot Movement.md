@@ -51,25 +51,25 @@ def trapezoidal_profile(x0, xf, vmax, amax, dt=0.01):\
         t += dt\
     return trajectory
 
-🤖 Step 3: Integrate with Motor Control
-•	Use PID or feedforward control to match velocity/position targets
-•	Sample trajectory in real-time and send commands to motor driver
+🤖 Step 3: Integrate with Motor Control\
+•	Use PID or feedforward control to match velocity/position targets\
+•	Sample trajectory in real-time and send commands to motor driver\
 •	Tune control loop for responsiveness and stability
 
-📊 Step 4: Test and Evaluate
-Metrics:
-•	Jerk:  
-•	Vibration: Use IMU or accelerometer data
-•	Trajectory tracking error: Compare actual vs. planned position
-Scenarios:
-•	Short hops vs. long hauls
-•	Varying payload weights
+📊 Step 4: Test and Evaluate\
+Metrics:\
+•	Jerk:\  
+•	Vibration: Use IMU or accelerometer data\
+•	Trajectory tracking error: Compare actual vs. planned position\
+Scenarios:\
+•	Short hops vs. long hauls\
+•	Varying payload weights\
 •	Sudden stops or direction changes
 
-✅ Evaluation Checklist
-Criterion	How to Demonstrate
-Motion profile implementation	Code + plots of velocity/acceleration
-Smooth curves (low jerk)	Jerk plots + sensor data
-Accurate trajectory following	Position error graphs
-Improvement over naive movement	Side-by-side comparison videos
+✅ Evaluation Checklist\
+Criterion	How to Demonstrate\
+Motion profile implementation	Code + plots of velocity/acceleration\
+Smooth curves (low jerk)	Jerk plots + sensor data\
+Accurate trajectory following	Position error graphs\
+Improvement over naive movement	Side-by-side comparison videos\
 Real-time performance	Profiling CPU usage + control loop latency
