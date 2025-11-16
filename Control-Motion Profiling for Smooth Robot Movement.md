@@ -28,8 +28,7 @@ def trapezoidal_profile(x0, xf, vmax, amax, dt=0.01):\
         ta = (d / amax)**0.5\
         tc = 0\
     else:\
-        tc = (d - 2 * da) / vmax
-
+        tc = (d - 2 * da) / vmax\
     total_time = 2 * ta + tc\
     t = 0\
     trajectory = []\
