@@ -17,7 +17,7 @@ Implement and tune a PID controller for  self-balancing robot using the MPU-6050
 
 #include <Wire.h>\
 #include <PID_v1.h>\
-#include "MPU6050.h"\
+#include "MPU6050.h"
 
 MPU6050 mpu;\
 double setpoint = 0;         // Desired angle (upright)\
