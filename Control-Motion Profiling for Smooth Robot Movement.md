@@ -14,8 +14,8 @@ o	Total distance:\
 
 🛠️ **Step 2: Implement Motion Profile Generator**\
 Inputs:\
-•	Start position
-•	End position 
+•	Start position\
+•	End position\
 •	Max velocity\  
 •	Max acceleration\ 
 Outputs:\
