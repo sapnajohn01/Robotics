@@ -1,6 +1,6 @@
 **Assignment 5: Real-World Control Challenge: Line Following with Disturbance Rejection**
 
-🧠 **Phase 1: Basic Line-Following with Proportional Control\**
+🧠 **Phase 1: Basic Line-Following with Proportional Control**\
 🔧 **Hardware Setup**\
 •	Sensors: Use 5–8 IR reflectance sensors (e.g., QTR or TCRT5000) arranged in a line.\
 •	Microcontroller: Arduino or Raspberry Pi with real-time capabilities.\
