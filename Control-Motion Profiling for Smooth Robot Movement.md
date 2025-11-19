@@ -1,18 +1,18 @@
 **Assignment 3: Motion Profiling for Smooth Robot Movement**
 
-🧠 Step 1: Understand Motion Profiles\
-🔺 Trapezoidal Profile\
+🧠 **Step 1: Understand Motion Profiles**\
+🔺 **Trapezoidal Profile**\
 •	Phases: Acceleration → Constant Velocity → Deceleration\
 •	Key Equations:\
 o	Acceleration time:\
 o	Distance during acceleration:\  
 o	Total distance:\  
-🌊 S-Curve Profile\
+🌊 **S-Curve Profile**\
 •	Phases: Smooth ramp-up/down of acceleration to reduce jerk\
 •	Uses: Ideal for delicate payloads or passenger comfort\
 •	Mathematics: Often modeled with 7-segment profiles or sigmoid functions
 
-🛠️ Step 2: Implement Motion Profile Generator\
+🛠️ **Step 2: Implement Motion Profile Generator**\
 Inputs:\
 •	Start position\ 
 •	End position\  
@@ -50,12 +50,12 @@ def trapezoidal_profile(x0, xf, vmax, amax, dt=0.01):\
         t += dt\
     return trajectory
 
-🤖 Step 3: Integrate with Motor Control\
+🤖 **Step 3: Integrate with Motor Control**\
 •	Use PID or feedforward control to match velocity/position targets\
 •	Sample trajectory in real-time and send commands to motor driver\
 •	Tune control loop for responsiveness and stability
 
-📊 Step 4: Test and Evaluate\
+📊 **Step 4: Test and Evaluate**\
 Metrics:\
 •	Jerk:\  
 •	Vibration: Use IMU or accelerometer data\
@@ -65,7 +65,7 @@ Scenarios:\
 •	Varying payload weights\
 •	Sudden stops or direction changes
 
-✅ Evaluation Checklist\
+✅ **Evaluation Checklist**\
 Criterion	How to Demonstrate\
 Motion profile implementation	Code + plots of velocity/acceleration\
 Smooth curves (low jerk)	Jerk plots + sensor data\
