@@ -1,4 +1,4 @@
-<img width="172" height="23" alt="image" src="https://github.com/user-attachments/assets/f40f395d-e9af-460c-88d4-09f36be4c13a" />**Assignment 2: Feedforward Control for Precise Motor Positioning**
+**Assignment 2: Feedforward Control for Precise Motor Positioning**
 
 🧠 **Step 1: Analyze Robotic Arm Dynamics**\
 **Dominant Forces**\
@@ -15,7 +15,7 @@
 Model a single rotary joint with a payload at the end.
 
 **Gravitational Torque**\
-theta = m.g.l.cos(theta)\
+<img width="172" height="23" alt="image" src="https://github.com/user-attachments/assets/f40f395d-e9af-460c-88d4-09f36be4c13a" />
 •	m : mass of link + payload\
 •	g : gravitational acceleration\
 •	l : distance to center of mass\
