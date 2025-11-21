@@ -15,14 +15,14 @@
 Model a single rotary joint with a payload at the end.
 
 **Gravitational Torque**\
-<img width="172" height="23" alt="image" src="https://github.com/user-attachments/assets/f40f395d-e9af-460c-88d4-09f36be4c13a" />
+<img width="172" height="23" alt="image" src="https://github.com/user-attachments/assets/f40f395d-e9af-460c-88d4-09f36be4c13a" />\
 •	m : mass of link + payload\
 •	g : gravitational acceleration\
 •	l : distance to center of mass\
 •	theta : joint angle
 
 **Inertial Torque**\
-theta = i.(theta..)\
+<img width="85" height="23" alt="image" src="https://github.com/user-attachments/assets/e159e406-cfc7-4f9e-89f7-7692794f6f4e" />\
 •	l : moment of inertia\
 •	theta.. : angular acceleration\
 Total Feedforward Torque
