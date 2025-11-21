@@ -4,9 +4,12 @@
 🔺 **Trapezoidal Profile**\
 •	Phases: Acceleration → Constant Velocity → Deceleration\
 •	Key Equations:\
-o	Acceleration time:\
-o	Distance during acceleration:\  
-o	Total distance:\  
+o	Acceleration time: <img width="65" height="30" alt="image" src="https://github.com/user-attachments/assets/ccd2b581-10dc-4426-89a8-c4e5d54c13fd" />
+\
+o	Distance during acceleration: <img width="97" height="29" alt="image" src="https://github.com/user-attachments/assets/588a606f-e487-4a5f-9a55-209357f3b930" />
+\  
+o	Total distance: <img width="127" height="21" alt="image" src="https://github.com/user-attachments/assets/92276902-5a6d-427f-b7ae-00938983efdc" />
+\  
 🌊 **S-Curve Profile**\
 •	Phases: Smooth ramp-up/down of acceleration to reduce jerk\
 •	Uses: Ideal for delicate payloads or passenger comfort\
@@ -14,10 +17,10 @@ o	Total distance:\
 
 🛠️ **Step 2: Implement Motion Profile Generator**\
 Inputs:\
-•	Start position\
-•	End position\
-•	Max velocity\  
-•	Max acceleration\ 
+•	Start position: x0\
+•	End position: xf\
+•	Max velocity: vmax\  
+•	Max acceleration: amax\ 
 Outputs:\
 •	Time-stamped trajectory: position, velocity, acceleration\
 def trapezoidal_profile(x0, xf, vmax, amax, dt=0.01):\
@@ -57,7 +60,8 @@ def trapezoidal_profile(x0, xf, vmax, amax, dt=0.01):\
 
 📊 **Step 4: Test and Evaluate**\
 Metrics:\
-•	Jerk:\  
+•	Jerk: <img width="42" height="30" alt="image" src="https://github.com/user-attachments/assets/7a360fb2-88ca-4ac4-8401-f04aa1eb5e3f" />
+\  
 •	Vibration: Use IMU or accelerometer data\
 •	Trajectory tracking error: Compare actual vs. planned position\
 Scenarios:\
