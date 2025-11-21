@@ -1,6 +1,6 @@
 **Assignment 1: Implementing PID Control for a Self-Balancing Robot**
 
-Implement and tune a PID controller for  self-balancing robot using the MPU-6050 and DC motors with encoders
+To implement and tune a PID controller for self-balancing robot using the MPU-6050 and DC motors with encoders
 
 🛠️ **Step 1: Development Environment Setup**\
 **Required Libraries**\
