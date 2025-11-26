@@ -1,6 +1,6 @@
 Assignment 1: Multi-Sensor Environmental Mapping Robot
 
-🛠️ Hardware Setup\
+🛠️ Hardware Setup
 1. Sensor Selection and Placement\
 •	Ultrasonic Sensors (e.g., HC-SR04): Mount at front and sides for long-range detection (20 cm to 4 m).\
 •	IR Sensors (e.g., Sharp GP2Y0A21YK0F): Place near corners or low on chassis for short-range detection (10 cm to 80 cm).\
