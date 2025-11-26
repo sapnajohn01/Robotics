@@ -1,4 +1,4 @@
-Assignment 5: Sensor Calibration and Noise Filtering Laboratory\
+Assignment 5: Sensor Calibration and Noise Filtering Laboratory
 
 🧭 Sensor Selection\
 Sensor Type	Purpose	Common Issues\
