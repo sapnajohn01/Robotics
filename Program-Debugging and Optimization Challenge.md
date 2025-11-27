@@ -9,7 +9,7 @@ Assignment 5: Debugging and Optimization Challenge
 🤖 Python Maze Navigation Skeleton\
 import time\
 import random\
-# === Debug Flag ===\
+# === Debug Flag ===
 DEBUG = True\
 def debug(msg):\
     if DEBUG:\
