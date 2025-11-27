@@ -11,12 +11,12 @@ Assignment 3: Automated Warehouse Line Follower
 import RPi.GPIO as GPIO\
 import time
 
-# Sensor pins\
+# Sensor pins
 LEFT = 17\
 CENTER = 27\
 RIGHT = 22
 
-# Motor pins\
+# Motor pins
 LEFT_MOTOR_FORWARD = 5\
 LEFT_MOTOR_BACKWARD = 6\
 RIGHT_MOTOR_FORWARD = 13\
