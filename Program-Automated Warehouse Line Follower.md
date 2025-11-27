@@ -6,7 +6,7 @@ Assignment 3: Automated Warehouse Line Follower
 •	Raspberry Pi: Running Python with RPi.GPIO or gpiozero\
 •	Track: Black line on white surface
 
-🧠 Python Logic Overview\
+🧠 Python Logic Overview
 1. Setup and Imports\
 import RPi.GPIO as GPIO\
 import time
