@@ -1,86 +1,83 @@
 Assignment 5: Debugging and Optimization Challenge
-Let’s reimagine the maze-navigating robot logic in Python—ideal for simulation or Raspberry Pi-based control. Here's a modular, debug-friendly Python script that covers:
 
-•	Sensor simulation (ultrasonic + IR)
-•	Decision logic
-•	Motor control abstraction
-•	Debug output toggle
+•	Sensor simulation (ultrasonic + IR)\
+•	Decision logic\
+•	Motor control abstraction\
+•	Debug output toggle\
 •	Optimization-ready structure
-🤖 Python Maze Navigation Skeleton
 
-import time
-import random
-
-# === Debug Flag ===
-DEBUG = True
-def debug(msg):
-    if DEBUG:
+🤖 Python Maze Navigation Skeleton\
+import time\
+import random\
+# === Debug Flag ===\
+DEBUG = True\
+def debug(msg):\
+    if DEBUG:\
         print(f"[DEBUG] {msg}")
 
-# === Simulated Sensor Readings ===
-def read_ultrasonic():
-    # Simulate distance in cm
+# === Simulated Sensor Readings ===\
+def read_ultrasonic():\
+    # Simulate distance in cm\
     return random.randint(5, 100)
 
-def read_ir():
-    # Simulate analog IR value
+def read_ir():\
+    # Simulate analog IR value\
     return random.randint(200, 800)
 
-# === Motor Control Abstraction ===
-def move_forward():
+# === Motor Control Abstraction ===\
+def move_forward():\
     debug("Motors: Moving Forward")
 
-def turn_left():
+def turn_left():\
     debug("Motors: Turning Left")
 
-def turn_right():
+def turn_right():\
     debug("Motors: Turning Right")
 
-def stop():
+def stop():\
     debug("Motors: Stopping")
 
-# === Decision Logic ===
-def decide_action(front, left, right):
-    debug(f"Sensor Readings - Front: {front}cm | Left: {left}cm | Right: {right}cm")
-    if front < 15:
-        if left > right:
-            return "LEFT"
-        else:
-            return "RIGHT"
-    elif front < 30:
-        return "STOP"
-    else:
+# === Decision Logic ===\
+def decide_action(front, left, right):\
+    debug(f"Sensor Readings - Front: {front}cm | Left: {left}cm | Right: {right}cm")\
+    if front < 15:\
+        if left > right:\
+            return "LEFT"\
+        else:\
+            return "RIGHT"\
+    elif front < 30:\
+        return "STOP"\
+    else:\
         return "FORWARD"
 
-# === Main Loop ===
-def main():
-    while True:
-        front = read_ultrasonic()
-        left = read_ultrasonic()
+# === Main Loop ===\
+def main():\
+    while True:\
+        front = read_ultrasonic()\
+        left = read_ultrasonic()\
         right = read_ultrasonic()
 
-        action = decide_action(front, left, right)
+        action = decide_action(front, left, right)\
         debug(f"Decision: {action}")
 
-        if action == "FORWARD":
-            move_forward()
-        elif action == "LEFT":
-            turn_left()
-        elif action == "RIGHT":
-            turn_right()
-        elif action == "STOP":
-            stop()
-
+        if action == "FORWARD":\
+            move_forward()\
+        elif action == "LEFT":\
+            turn_left()\
+        elif action == "RIGHT":\
+            turn_right()\
+        elif action == "STOP":\
+            stop()\
         time.sleep(1)
 
-if __name__ == "__main__":
+if __name__ == "__main__":\
     main()
 
-🧪 Testing Protocol
-Scenario	Sensor Inputs (cm)	Expected Action
-Clear path	Front: 50, Left: 40, Right: 45	FORWARD
-Wall ahead	Front: 10, Left: 30, Right: 20	LEFT
-Dead end	Front: 10, Left: 10, Right: 10	RIGHT or STOP
+🧪 Testing Protocol\
+Scenario	Sensor Inputs (cm)	Expected Action\
+Clear path	Front: 50, Left: 40, Right: 45	FORWARD\
+Wall ahead	Front: 10, Left: 30, Right: 20	LEFT\
+Dead end	Front: 10, Left: 10, Right: 10	RIGHT or STOP\
 Narrow corridor	Front: 25, Left: 15, Right: 15	STOP
 
 let’s build this out for a real Raspberry Pi robot using Python. Here's how we can evolve the simulation into a hardware-ready system:
