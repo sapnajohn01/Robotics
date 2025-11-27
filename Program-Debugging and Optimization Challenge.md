@@ -91,7 +91,7 @@ Motor Driver (L298N)	Motor control	IN1–IN4, ENA/ENB
 import RPi.GPIO as GPIO\
 import time
 
-# === GPIO Setup ===\
+# === GPIO Setup ===
 GPIO.setmode(GPIO.BCM)\
 TRIG = 23\
 ECHO = 24\
