@@ -1,7 +1,7 @@
 Assignment 4: Finite State Machine for Security Robot
 
 🧠 FSM Design Overview\
-🎯 States\\
+🎯 States\
 State	Behavior Description
 PATROL	Follows a predefined path using line-following or waypoint navigation\
 ALERT	Stops movement, activates warning lights/sound, logs incident\
