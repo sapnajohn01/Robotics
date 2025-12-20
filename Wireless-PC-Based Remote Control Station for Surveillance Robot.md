@@ -51,20 +51,20 @@ import tkinter as tk
 root = tk.Tk()\
 root.title("Surveillance Robot Dashboard")
 
-# Sensor labels\
+# Sensor labels
 ultrasonic_label = tk.Label(root, text="Ultrasonic: ---")\
 ultrasonic_label.pack()\
 temp_label = tk.Label(root, text="Temperature: ---")\
 temp_label.pack()
 
-# Command buttons\
+# Command buttons
 tk.Button(root, text="Forward", command=lambda: send_command("FORWARD")).pack()\
 tk.Button(root, text="Backward", command=lambda: send_command("BACKWARD")).pack()\
 tk.Button(root, text="Left", command=lambda: send_command("LEFT")).pack()\
 tk.Button(root, text="Right", command=lambda: send_command("RIGHT")).pack()\
 tk.Button(root, text="Stop", command=lambda: send_command("STOP")).pack()
 
-# Update loop\
+# Update loop
 def update_data():\
     data = read_data()\
     if data:\
