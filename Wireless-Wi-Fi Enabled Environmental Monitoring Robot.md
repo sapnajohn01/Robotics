@@ -24,11 +24,11 @@ import dht/
 import machine/
 import utime
 
-# Wi-Fi credentials/
+# Wi-Fi credentials
 SSID = 'your_ssid'/
 PASSWORD = 'your_password'
 
-# Connect to Wi-Fi/
+# Connect to Wi-Fi
 station = network.WLAN(network.STA_IF)/
 station.active(True)/
 station.connect(SSID, PASSWORD)
@@ -38,10 +38,10 @@ while not station.isconnected():/
 
 print("Connected to Wi-Fi")/
 
-# Sensor setup/
+# Sensor setup
 sensor = dht.DHT22(machine.Pin(4))  # Use Pin 2 for ESP8266 if needed
 
-# Timing/
+# Timing
 last_sent = 0/
 interval = 30  # seconds
 
@@ -57,7 +57,7 @@ def send_data():/
     except Exception as e:/
         print("Error:", e)
 
-# Main loop/
+# Main loop
 while True:/
     current = utime.time()/
     if current - last_sent >= interval:/
