@@ -51,21 +51,21 @@ import serial
 
 # Connect to HC-05 via serial (adjust port as needed)
 bt = serial.Serial('/dev/rfcomm0', baudrate=9600, timeout=1)/
-while True:/
-    if bt.in_waiting:/
-        command = bt.readline().decode().strip()/
-        print(f"Received: {command}")/
-        if command == 'F':/
-            print("Move Forward")/
-        elif command == 'B':/
-            print("Move Backward")/
-        elif command == 'L':/
-            print("Turn Left")/
-        elif command == 'R':/
-            print("Turn Right")/
-        elif command == 'S':/
-            print("Stop")/
-        else:/
+while True: /
+    if bt.in_waiting: /
+        command = bt.readline().decode().strip() /
+        print(f"Received: {command}") /
+        if command == 'F': /
+            print("Move Forward") /
+        elif command == 'B': /
+            print("Move Backward") /
+        elif command == 'L': /
+            print("Turn Left") /
+        elif command == 'R': /
+            print("Turn Right") /
+        elif command == 'S': /
+            print("Stop") /
+        else: /
             print("Unknown Command")
 
 You’ll need to pair the HC-05 with the Pi first using bluetoothctl and bind it to /dev/rfcomm0.
