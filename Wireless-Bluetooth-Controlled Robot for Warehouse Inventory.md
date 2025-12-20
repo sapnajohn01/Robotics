@@ -49,7 +49,7 @@ If you're using a Raspberry Pi, Python can handle Bluetooth communication direct
 Example: Listening for Commands via Serial Bluetooth
 import serial
 
-# Connect to HC-05 via serial (adjust port as needed)/
+# Connect to HC-05 via serial (adjust port as needed)
 bt = serial.Serial('/dev/rfcomm0', baudrate=9600, timeout=1)/
 while True:/
     if bt.in_waiting:/
